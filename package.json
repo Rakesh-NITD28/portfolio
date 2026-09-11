@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
-    "build": "npm run build:css && mkdir -p out && cp index.html out/ && cp src/output.css out/ && cp *.png out/ || true"
+    "build": "npm run build:css && mkdir -p out && cp index.html out/ && cp resume.html out/ && cp src/output.css out/ && cp *.png out/ || true"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
